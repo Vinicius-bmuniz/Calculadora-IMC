@@ -1,10 +1,14 @@
 body {
+  box-sizing: border-box;
+
   display: grid;
   place-content: center;
   justify-items: center;
-  min-height: 100vh;
+
+  height: 100vh;
   margin: 0;
   padding: 1rem;
+
   line-height: 1.5;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
@@ -12,7 +16,7 @@ body {
 
   background-image: url(../img/back2.jpg);
   background-size: cover;
-  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -22,7 +26,7 @@ body {
   transform: translate(-50%, -50%);
   height: 370px;
   width: 350px;
-  background:rgba(118, 233, 214, 0.199);
+  background: rgba(118, 233, 214, 0.199);
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 0 20px 8px #d0d0d0;
